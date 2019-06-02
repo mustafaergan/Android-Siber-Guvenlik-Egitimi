@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tr.edu.ufuk.siberguvenlikegitimi">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".GirisMainActivity" />
+        <activity android:name=".manager.YoneticiActivity" />
+        <activity android:name=".manager.YoneticiRolActivity" />
+        <activity android:name=".manager.YoneticiKullaniciActivity" />
+        <activity android:name=".manager.YoneticiRolEkleActivity" />
+        <activity android:name=".manager.YoneticiRolGuncelleActivity" />
+        <activity android:name=".manager.YoneticiKullaniciEkleActivity" />
+        <activity android:name=".manager.YoneticiKullaniciGuncelleActivity" />
+        <activity android:name=".manager.YoneticiKullaniciListeleSilActivity" />
+        <activity android:name=".manager.YoneticiKullaniciListeleGuncelleActivity" />
+        <activity android:name=".manager.YoneticiRolListeleSilActivity" />
+        <activity android:name=".manager.YoneticiRolListeleGuncelleActivity" />
+        <activity android:name=".education.EgitimListesiActivity" />
+        <activity android:name=".education.EgitimVideoActivity" />
+        <activity android:name=".education.EgitimDokumanActivity" />
+        <activity android:name=".test.TestListesiActivity" />
+        <activity android:name=".test.TestActivity" />
+        <activity android:name=".test.TestSonucActivity"></activity>
+    </application>
+
+</manifest>

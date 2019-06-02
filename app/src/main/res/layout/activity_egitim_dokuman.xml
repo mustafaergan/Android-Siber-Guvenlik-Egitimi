@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="tr.edu.ufuk.siberguvenlikegitimi.education.EgitimDokumanActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et quam et mauris imperdiet pretium eu sollicitudin justo. Etiam vestibulum, metus nec molestie aliquet, magna orci cursus justo, eget porttitor sem nibh nec justo. In augue enim, blandit ut fermentum eu, placerat in quam. Donec accumsan dignissim neque nec bibendum. Aenean vitae ligula ut nulla accumsan blandit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis sed risus erat. Fusce quis placerat risus. Curabitur id rutrum ex. Curabitur in nulla id ligula consectetur faucibus. Vivamus placerat posuere auctor. Sed id aliquet elit. Fusce dictum ut nisl vitae venenatis. Aenean bibendum efficitur pulvinar.
+
+Phasellus sodales felis quis felis cursus, ut luctus tortor posuere. Praesent egestas lectus erat, sed lobortis dolor dictum eu. Maecenas nibh velit, consectetur ac justo vitae, egestas tempus orci. Curabitur nibh sem, malesuada sit amet faucibus aliquet, finibus eget elit. Quisque efficitur accumsan turpis, volutpat fermentum diam posuere nec. Vivamus dui lectus, malesuada dapibus velit sit amet, scelerisque auctor orci. Donec vehicula elementum fringilla. Sed eget fringilla risus. Duis nisl quam, dapibus ac diam ut, commodo imperdiet velit. Maecenas dictum euismod lorem. Nunc justo dolor, feugiat a sapien at, cursus ullamcorper purus. Vestibulum lacus quam, venenatis sed ultrices ut, lobortis sit amet risus. Sed in pulvinar odio.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et quam et mauris imperdiet pretium eu sollicitudin justo. Etiam vestibulum, metus nec molestie aliquet, magna orci cursus justo, eget porttitor sem nibh nec justo. In augue enim, blandit ut fermentum eu, placerat in quam. Donec accumsan dignissim neque nec bibendum. Aenean vitae ligula ut nulla accumsan blandit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis sed risus erat. Fusce quis placerat risus. Curabitur id rutrum ex. Curabitur in nulla id ligula consectetur faucibus. Vivamus placerat posuere auctor. Sed id aliquet elit. Fusce dictum ut nisl vitae venenatis. Aenean bibendum efficitur pulvinar.
+
+Phasellus sodales felis quis felis cursus, ut luctus tortor posuere. Praesent egestas lectus erat, sed lobortis dolor dictum eu. Maecenas nibh velit, consectetur ac justo vitae, egestas tempus orci. Curabitur nibh sem, malesuada sit amet faucibus aliquet, finibus eget elit. Quisque efficitur accumsan turpis, volutpat fermentum diam posuere nec. Vivamus dui lectus, malesuada dapibus velit sit amet, scelerisque auctor orci. Donec vehicula elementum fringilla. Sed eget fringilla risus. Duis nisl quam, dapibus ac diam ut, commodo imperdiet velit. Maecenas dictum euismod lorem. Nunc justo dolor, feugiat a sapien at, cursus ullamcorper purus. Vestibulum lacus quam, venenatis sed ultrices ut, lobortis sit amet risus. Sed in pulvinar odio." />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
